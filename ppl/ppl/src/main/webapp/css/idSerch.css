@@ -1,0 +1,35 @@
+@charset "UTF-8";
+#login{
+	width:300px;
+	height:400px;
+	border:1px solid black;
+	margin:40px auto;
+	border-radius: 8px;
+}
+#login{
+	padding: 16px;
+}
+#login input{
+	margin: 5px 10px;
+	width: 272px;
+	height: 45px;
+	border-radius: 8px;
+}
+#login input[type='submit']{
+	background-color:white; 
+	padding: 13px 20px;
+	margin: 80px 10px 30px 10px;
+	width: 280px;
+}
+#login ul{
+	list-style:none; 
+	height: 25px; 
+	display : flex; 
+	gap : 10px; 
+	margin : 0 0 0 15px;
+	line-height: 0; 
+	clear: both; 
+	padding: 10px;
+}
+
+img{display: block; margin: 0 auto; margin-top: 110px; width: 150px;}

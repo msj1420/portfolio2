@@ -1,0 +1,85 @@
+@charset "UTF-8";
+#header{ 
+	height : 130px;
+	width : 900px;
+	margin : 0 auto;
+}
+#headertop{
+	height : 22px;
+}
+#headertop>ul{
+	list-style:none; 
+	height: 25px; 
+	float : right; 
+	display : flex; 
+	gap : 0px; 
+	margin : 0;
+	line-height: 0; 
+	clear: both; 
+	padding: 10px;
+	width : 200px;
+	height: 100px;
+}
+#headermain{
+	margin : 0; 
+	border-top : 1px solid gray;
+	height : 130px;
+}
+#headermain>ul{
+	list-style : none;
+	display : flex;
+	gap : 0; 
+	margin : 0;
+	line-height: 10px; 
+	clear: both;
+	position : relative;
+	top : -40px;
+	padding : 0 123px;
+	height : 30px;
+}
+#headermain>ul li{
+	margin : 0 14px;
+}
+#headermain>ul h1{
+	margin : 0;
+	position : relative;
+	top : -35px;
+}
+img{
+	width : 150px;
+	height : 70px;
+}
+#main{
+	border : 1px solid red;
+	background-color: white;
+	margin: 0 auto;
+	height: 500px;
+	width : 800px;
+}
+#main h3{
+	text-align : center;
+}
+#serch{
+	margin : 0 0 0 300px ;
+}
+#locationNavi{
+	height: 300px;
+	width : 600px;
+	margin: 0 auto;
+	position : relative;
+	top : 30px;
+	padding : 20px 100px 20px 100px;
+	background : #2196f345;
+	overflow-y : scroll;
+}
+#locationNavi ul{
+	list-style : none;
+	margin : 0;
+}
+#locationNavi ul li{
+	float : left;
+	position : relative;
+	font-size: 100%;
+	width: 50%;
+	margin: 10px 0;
+}
